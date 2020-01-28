@@ -1,0 +1,3 @@
+#cron to run at every minute past every 3rd hour.
+
+* */3 * * * /usr/bin/sh /usr/share/bw/exim.sh > /dev/null 2>&1
